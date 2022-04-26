@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Bài tập thêm JS buổi 5 </h1>
+        <div class="row">
+            <div class="card col-6 bg-warning">
+                <div class="card-header">
+                    Tính thuế thu nhập cá nhân
+                </div>
+                <div class="card-body text-right">
+                    <label for="">Họ và tên</label>
+                    <input class="col-8" type="text" name="" id="hoTen"> <br>
+                    <label for="">Tổng thu nhập năm</label>
+                    <input class="col-8" type="number" name="" id="thuNhap"> <br>
+                    <label for="">Số người phụ thuộc</label>
+                    <input class="col-8" type="number" name="" id="soNguoi">
+                    <br>
+                    <button id="kiemTra" class="btn btn-success">Tính thuế</button>
+                </div>
+                <div id="ketQua" class="card-footer text-dark">
+                </div>
+            </div>
+
+            <!-- Tính tiền cáp -->
+            <div class="card col-6 bg-success">
+                <div class="card-header">
+                    Tính tiền cáp
+                </div>
+                <div class="card-body">
+                    <select class="my-3" id="select">
+                        <option value="">Chọn loại khách hàng</option>
+                        <option value="nhaDan">Nhà dân</option>
+                        <option value="DN">Doanh nghiệp</option>
+                    </select>
+                    <input class="col-3 my-3" style="display: none" type="number" name="" id="soKn" placeholder="Số kết nối">
+                    <br>
+                    <input class="col-4" type="text" name="" id="ms" placeholder="Mã số khách hàng">
+                    <input class="col-4" type="number" name="" id="soK" placeholder="Số kênh cao cấp">
+                    <br>
+                    <button id="tinhTien" class="btn btn-warning my-3">Tính tiền</button>
+                </div>
+                <div id="ketQua2" class="card-footer text-light">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
